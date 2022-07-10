@@ -1,0 +1,12 @@
+# BAEKJOON
+with 엘레강스파이썬
+import sys
+
+a = int(input())
+lst = []
+
+for i in range(a):
+    lst.append(int(sys.stdin.readline()))
+    
+for i in sorted(lst):
+    sys.stdout.write(str(i)+'\n')
